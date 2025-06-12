@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'PP';
+  src: url('./assets/fonts/perpetua-titling-mt-cufonfonts/PERTIBD.TTF') format('truetype');
+}
+
+
+
+@import url('https://fonts.cdnfonts.com/css/ghisel');

@@ -1,0 +1,151 @@
+.about-me{
+    position : relative;
+    width : 100%;
+    height : 140vh;
+    align-items: center;
+    background-color: #B9CBE9;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.about-me .about-me-title {
+    position : relative;
+    top : -10px;
+    color : #4D0012;
+    font-family: 'Ghisell';
+    font-size: 94px;
+    z-index: 0;
+}
+
+.me{
+    position: absolute;
+    bottom: -240px;
+    left: 35%;
+    height: 690px;
+    width: 493px;
+    background-image: url(./assets/img/Me.svg);
+    background-size: cover;
+    z-index: 0;
+}
+.me:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.xp{
+    position: absolute;
+    bottom: -177px;
+    right: 5%;
+    height: 690px;
+    width: 493px;
+    background-image: url(./assets/img/exp.svg);
+    background-size: cover;
+    z-index: 1;
+}
+.xp:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.school{
+    position: absolute;
+    bottom: -177px;
+    left: 10%;
+    height: 690px;
+    width: 493px;
+    background-image: url(./assets/img/school.svg);
+    background-size: cover;
+    z-index: 0;
+}
+.school:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.home-button{
+    position: fixed;
+    top : 90px;
+    right: -60px;
+    border-radius: 16px;
+    border: 2px solid #000;
+    height: 80px;
+    width: 150px;
+    background-color: antiquewhite;
+    transform : rotate(90deg);
+    z-index: 2000;
+}
+.home-button:hover{
+    transform: rotate(90deg) translateY(20px);
+    transition: 0.5s;
+}
+
+.home-button-text{
+    position: absolute;
+    top: 25px;
+    left: 37px;
+    font-family: 'Ghisel';
+    font-size: 30px;
+    color: #4D0012;
+    transform: rotate(180deg);
+}
+
+/* Animation pour agrandir et centrer */
+.me.selected, .xp.selected, .school.selected {
+    transition: 
+        all 0.8s cubic-bezier(0.77, 0, 0.175, 1),
+        z-index 0s;
+    z-index: 10;
+    left: 50% !important;
+    right: auto !important;
+    top: 70% !important;
+    bottom: auto !important;
+    transform: translate(-50%, -50%) scale(1.4);
+}
+
+/* Animation pour faire disparaître */
+.me.hidden, .xp.hidden, .school.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+/* Animation pour le titre */
+.about-me-title.rotated-title {
+    transition: 
+        transform 0.8s cubic-bezier(0.77, 0, 0.175, 1),
+        left 0.8s cubic-bezier(0.77, 0, 0.175, 1),
+        top 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: rotate(-90deg) translateY(-50%);
+}
+
+.back-button{
+    position: fixed;
+    top : 260px;
+    right: -60px;
+    border-radius: 16px;
+    border: 2px solid #000;
+    height: 80px;
+    width: 150px;
+    background-color: antiquewhite;
+    transform : rotate(90deg);
+    z-index: 2000;
+}
+
+
+.back-button:hover{
+    transform: rotate(90deg) translateY(20px);
+    transition: 0.5s;
+}
+
+.back-button-text{
+    position: absolute;
+    top: 25px;
+    left: 42px;
+    font-family: 'Ghisel';
+    font-size: 30px;
+    color: #4D0012;
+    transform: rotate(180deg);
+}

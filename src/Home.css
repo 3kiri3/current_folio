@@ -1,0 +1,11 @@
+.home{
+  position : relative;
+  background-color : #D9D9D9;
+  height : 100vh;
+  overflow: hidden;
+}
+h1{
+  color : #4D0012;
+  font-size : 5rem;
+  text-align : center;
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "name": "LifeApp",
+        "images": [
+            "/images/LifeApp/myapp.png",
+            "/images/LifeApp/habitstracker.png",
+            "/images/LifeApp/visionboard.png",
+            "/images/LifeApp/subs.png",
+            "/images/LifeApp/affs.png",
+            "/images/LifeApp/med.png"
+        ],
+        "description": "Life is a comprehensive personal growth application designed to help you lead a more intentional and fulfilling life. Combining a robust habit tracker, a dedicated space for subliminal messages and daily affirmations, and a dynamic vision board, this app empowers you to monitor your routines, reinforce positive thinking, and visualize your goals—all within a sleek, intuitive interface. Whether you're building new habits, cultivating a positive mindset, or mapping out your dreams, Gestion de Vie serves as your all-in-one tool for daily self-improvement and motivation. This app was initialy made for my personal use, but I decided to share it with the world."
+    },
+    {
+        "name": "My Garden",
+        "images": [
+            "/images/plants/g1.png",
+            "/images/plants/g2.png",
+            "/images/plants/g3.png",
+            "/images/plants/g4.png",
+            "/images/plants/g5.png",
+            "/images/plants/g6.png",
+            "/images/plants/g7.png",
+            "/images/plants/g8.png",
+            "/images/plants/g9.png"
+        ],
+        "description": "This prototype was my first design project. I loved it in every aspect during the whole processus of developing it. I imagine an app for gardener to grow their own plants and never have to ask themselves when to water them or even what to use to take care of them. I also added a social media aspect in my app to make it more attractive and maybe find your next garden partner !"
+    },
+    {
+        "name": "Conciergerie",
+        "images": [
+            "/images/conciergerie/m1.png",
+            "/images/conciergerie/m2.png",
+            "/images/conciergerie/m3.png",
+            "/images/conciergerie/m4.png",
+            "/images/conciergerie/m5.png",
+            "/images/conciergerie/m6.png"
+        ],
+        "description": "Aura Domus is a comprehensive management platform designed specifically for Airbnb hosts. Our mission is to simplify and enhance your hosting experience by taking care of everything—from guest communications and bookings to housekeeping and maintenance. With our professional team and advanced technology, you can enjoy stress-free hosting while ensuring every guest receives exceptional service. Whether you're an experienced host or just starting out, our concierge service helps you maximize your rental income and maintain a pristine property, so you can focus on what truly matters."
+    },
+    {
+        "name": "Desert",
+        "images": [
+            "/images/desert/desert1.png",
+            "/images/desert/desert2.png",
+            "/images/desert/desert3.png",
+            "/images/desert/desert4.png",
+            "/images/desert/desert5.png"
+        ],
+        "description": "Desert Interdit is a Java project that reimagines classic board game mechanics in a digital format. Inspired by traditional gameplay, it immerses players in a mystical, forbidding desert where every decision counts. Featuring an intuitive graphical interface, the game brings the stark beauty of the desert to life, challenging players to navigate treacherous terrain and manage scarce resources through strategic planning. With its blend of nostalgia and modern interactivity, Desert Interdit offers an engaging, thought-provoking experience for both board game enthusiasts and digital gamers alike."
+    },
+    {
+        "name": "Jeu du Berger",
+        "images": [
+            "/images/berger/berger1.png",
+            "/images/berger/berger2.png"
+        ],
+        "description": "Jeu du Berger is a simple Java game that we developed during our second year of University. The game is pretty easy to play. You must by all cost protect your sheeps from the wolves. You can move the shepherd using the arrow keys. The game is over when all the sheeps are dead. The game is pretty simple but it was a good way to learn the basics of Java."
+    },
+    {
+        "name": "Tree of Life",
+        "images": [
+            "/images/ProjetArbredeVie/arbre1.png",
+            "/images/ProjetArbredeVie/arbre2.png",
+            "/images/ProjetArbredeVie/arbre3.png",
+            "/images/ProjetArbredeVie/arbre4.png",
+            "/images/ProjetArbredeVie/arbre5.png"
+        ],
+        "description": "Tree of life is the last project we made during the bachelor. The goal of this project was to create a simple tree representing the life on earth since its beginning. It was designed for children and school use. You can find any species of animal or plant on the tree and by clicking on it you can have more information about it. The whole project was made using Java and JavaFX."
+    }
+]

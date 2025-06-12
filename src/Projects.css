@@ -1,0 +1,158 @@
+.projects{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #B9CBE9;
+    overflow: hidden;
+    z-index: -6;
+}
+
+
+
+.Conciergerie{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    background-image: url(./assets/img/conciergerie.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.LifeApp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./assets/img/LifeApp.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Plant{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./assets/img/plant.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Tree{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 75vh;
+    background-image: url(./assets/img/tree.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Berger{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    background-image: url(./assets/img/berger.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Desert{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100vw;
+    height: 65vh;
+    background-image: url(./assets/img/desert.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.Conciergerie,
+.LifeApp,
+.Plant,
+.Tree,
+.Berger,
+.Desert {
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1);
+}
+
+.Conciergerie.slide-in,
+.LifeApp.slide-in,
+.Plant.slide-in,
+.Tree.slide-in,
+.Berger.slide-in,
+.Desert.slide-in {
+    transform: translateY(0);
+}
+
+.Conciergerie.slide-in:hover,
+.LifeApp.slide-in:hover,
+.Plant.slide-in:hover,
+.Tree.slide-in:hover,
+.Berger.slide-in:hover,
+.Desert.slide-in:hover {
+    transform: translateY(-20px);
+}
+
+.panneau{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D9D9D9;
+    z-index: 4;
+    transform: translateX(100%);
+    transition: transform 0.7s cubic-bezier(0.77,0,0.175,1);
+}
+
+.panneau.slide-in-panneau {
+    transform: translateX(25vw);
+    z-index: 4;
+}
+
+.panneau-text-title{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    font-size: 5.5rem;
+    color: #110233;
+    font-family: 'Ghisell';
+}
+
+.panneau-text-content{
+    position: absolute;
+    width: 70%;
+    top: 30%;
+    left: 3%;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-family: 'Ghisell';
+}
+
+.panneau-text-content2 {
+    position: absolute;
+    width: 50%;
+    top: 70%;
+    left: 3%;
+    font-size: 1.5rem;
+    color: #4D0012;
+    font-family: 'Ghisell';
+}
+
+
