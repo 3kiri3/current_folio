@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/current_folio/static/css/main.5bada3ee.css",
+    "main.js": "/current_folio/static/js/main.3e1d5ac3.js",
+    "static/js/453.65642199.chunk.js": "/current_folio/static/js/453.65642199.chunk.js",
+    "static/media/exp.svg": "/current_folio/static/media/exp.9f5da62fbe21d2133b35.svg",
+    "static/media/Me.svg": "/current_folio/static/media/Me.c5d85995de6f13093cfc.svg",
+    "static/media/jaune.svg": "/current_folio/static/media/jaune.c0d8fedca53dfcecae0b.svg",
+    "static/media/bleu.svg": "/current_folio/static/media/bleu.ae70d93f75f9967f8d24.svg",
+    "static/media/rose.svg": "/current_folio/static/media/rose.cf77b84e030befb60cdb.svg",
+    "static/media/orange.svg": "/current_folio/static/media/orange.e5e5a37227c9201b6ac3.svg",
+    "static/media/school.svg": "/current_folio/static/media/school.ba6ead420bc04fb2b0f2.svg",
+    "static/media/contact.svg": "/current_folio/static/media/contact.2776e4e1529aa0ffa4b7.svg",
+    "static/media/GHISEL.woff": "/current_folio/static/media/GHISEL.f3c9060cc8e370c4939d.woff",
+    "static/media/folder.svg": "/current_folio/static/media/folder.0accb59a431bfb609ede.svg",
+    "static/media/conciergerie.svg": "/current_folio/static/media/conciergerie.7834937913c514db8956.svg",
+    "static/media/plant.svg": "/current_folio/static/media/plant.2dd93d8e104f5300817b.svg",
+    "static/media/projects.svg": "/current_folio/static/media/projects.ae3105c25d5496f1005a5891e93b0a7e.svg",
+    "static/media/tree.svg": "/current_folio/static/media/tree.5973404c214fcc5870c3.svg",
+    "static/media/hobbies.svg": "/current_folio/static/media/hobbies.12838676ba98a0550fd03a910b5b27e8.svg",
+    "static/media/contactme.svg": "/current_folio/static/media/contactme.ae640e75c1f5c31b7a917ecea14ce42e.svg",
+    "static/media/berger.svg": "/current_folio/static/media/berger.db046fd6e50bc4e7f0fb.svg",
+    "static/media/fichier.svg": "/current_folio/static/media/fichier.1234890ef0a522ab5ecf.svg",
+    "static/media/aboutme.svg": "/current_folio/static/media/aboutme.b8ecc27e2083adb724518e22e7c79392.svg",
+    "static/media/desert.svg": "/current_folio/static/media/desert.1135eac348d9b0d22d4d.svg",
+    "static/media/LifeApp.svg": "/current_folio/static/media/LifeApp.bae262abaeefd0cd134f.svg",
+    "static/media/contact2.svg": "/current_folio/static/media/contact2.3c877a4c4b27f41a030e.svg",
+    "index.html": "/current_folio/index.html",
+    "main.5bada3ee.css.map": "/current_folio/static/css/main.5bada3ee.css.map",
+    "main.3e1d5ac3.js.map": "/current_folio/static/js/main.3e1d5ac3.js.map",
+    "453.65642199.chunk.js.map": "/current_folio/static/js/453.65642199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bada3ee.css",
+    "static/js/main.3e1d5ac3.js"
+  ]
+}
