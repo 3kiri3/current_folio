@@ -13,7 +13,7 @@ Modal.setAppElement('#root');
 function App() {
 
   return (
-    <Router>
+    <Router basename="/current_folio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<AboutMe />} />

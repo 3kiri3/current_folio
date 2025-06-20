@@ -160,7 +160,7 @@ const AnimatedText = () => {
    };
 
   const textStyle = {
-    fontSize: shrink ? '55px' : '96px',
+    fontSize: shrink ? '3.6vw' : '8vw',
     fontWeight: 'bold',
     transition: 'transform 1.5s ease-in-out, font-size 1.5s ease-in-out',
     whiteSpace: 'nowrap',
@@ -169,7 +169,7 @@ const AnimatedText = () => {
   };
   
   const textStyle2 = {
-    fontSize: '60px',
+    fontSize: '3.6vw',
     fontWeight: 'bold',
     transition: 'transform 8s ease-in-out',
     whiteSpace: 'wrap',

@@ -28,16 +28,19 @@ const Display = () => {
                 </Link>
                 
                 <div className="grille">
-                    {element.images && element.images.map((img, idx) => (
-                        <img
-                            key={idx}
-                            src={img}
-                            alt={`${element.name} ${idx + 1}`}
-                            className="grille-img"
-                            onClick={() => { setSelectedIdx(idx); setModalIsOpen(true); }}
-                            style={{ cursor: 'pointer' }}
-                        />
-                    ))}
+                    {element.images && element.images.map((img, idx) => {
+                        const imageSrc = require(`${img}`);
+                        return (
+                            <img
+                                key={idx}
+                                src={imageSrc}
+                                alt={`${element.name} ${idx + 1}`}
+                                className="grille-img"
+                                onClick={() => { setSelectedIdx(idx); setModalIsOpen(true); }}
+                                style={{ cursor: 'pointer' }}
+                            />
+                        );
+                    })}
                 </div>
                 <Modal
                     isOpen={modalIsOpen}
@@ -51,7 +54,11 @@ const Display = () => {
                         className="modal-arrow left"
                         onClick={() => setSelectedIdx((selectedIdx - 1 + element.images.length) % element.images.length)}
                     >‹</button>
-                    <img src={element.images[selectedIdx]} alt="zoom" className="modal-img" />
+                    <img
+                        src={require(`${element.images[selectedIdx]}`)}
+                        alt="zoom"
+                        className="modal-img"
+                    />
                     <button
                         className="modal-arrow right"
                         onClick={() => setSelectedIdx((selectedIdx + 1) % element.images.length)}
