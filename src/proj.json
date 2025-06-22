@@ -29,12 +29,13 @@
     {
         "name": "Conciergerie",
         "images": [
-            "/assets/img/images/conciergerie/m1.png",
-            "/assets/img/images/conciergerie/m2.png",
-            "/assets/img/images/conciergerie/m3.png",
-            "/assets/img/images/conciergerie/m4.png",
-            "/assets/img/images/conciergerie/m5.png",
-            "/assets/img/images/conciergerie/m6.png"
+            "./assets/img/images/conciergerie/m1.png",
+            "./assets/img/images/conciergerie/m2.png",
+            "./assets/img/images/conciergerie/m3.png",
+            "./assets/img/images/conciergerie/m4.png",
+            "./assets/img/images/conciergerie/m5.png",
+            "./assets/img/images/conciergerie/m6.png"
+    
             
         ],
         "description": "Aura Domus is a comprehensive management platform designed specifically for Airbnb hosts. Our mission is to simplify and enhance your hosting experience by taking care of everything—from guest communications and bookings to housekeeping and maintenance. With our professional team and advanced technology, you can enjoy stress-free hosting while ensuring every guest receives exceptional service. Whether you're an experienced host or just starting out, our concierge service helps you maximize your rental income and maintain a pristine property, so you can focus on what truly matters."

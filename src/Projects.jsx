@@ -82,7 +82,7 @@ return (
     <Link to="/Display/Tree of Life">
     <div className={`Tree${slideIN4 ? ' slide-in' : ''}`}></div>
     </Link>
-    <Link to="/Display/Berger">
+    <Link to="/Display/Jeu du Berger">
     <div className={`Berger${slideIN5 ? ' slide-in' : ''}`}></div>
     </Link>
     <Link to="/Display/Desert">
